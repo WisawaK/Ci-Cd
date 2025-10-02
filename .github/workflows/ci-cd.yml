@@ -329,10 +329,3 @@ jobs:
           echo "✓ Security: ${{ needs.security-additional.result }}"
           echo "✓ Build: ${{ needs.build.result }}"
           echo "=========================="
-
-ขั้นตอนที่ 4: Push และทดสอบ
-git add .github/workflows/ci-cd.yml
-git commit -m "Add CI/CD pipeline"
-git push origin main
-
-# ตรวจสอบผลลัพธ์ใน GitHub Actions 
